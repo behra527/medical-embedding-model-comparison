@@ -1,0 +1,41 @@
+pair_id,category,sentence_1,sentence_2,same_meaning,clinical_rationale
+S01,synonyms,The patient has hypertension.,The patient has high blood pressure.,1,Hypertension means high blood pressure.
+S02,synonyms,The patient experienced a myocardial infarction.,The patient experienced a heart attack.,1,Myocardial infarction is a heart attack.
+S03,synonyms,The patient has dyspnea.,The patient has shortness of breath.,1,Dyspnea means difficulty breathing.
+S04,synonyms,The patient has hyperglycemia.,The patient has elevated blood glucose.,1,Hyperglycemia means elevated blood glucose.
+S05,synonyms,The patient reports emesis.,The patient reports vomiting.,1,Emesis means vomiting.
+S06,synonyms,The patient has edema in both ankles.,The patient has swelling in both ankles.,1,Edema means swelling.
+S07,synonyms,A fracture was identified in the left radius.,A broken left radius was identified.,1,Fracture means a broken bone.
+S08,synonyms,The patient has bradycardia.,The patient has a slow heart rate.,1,Bradycardia means a slow heart rate.
+S09,synonyms,The patient has tachycardia.,The patient has a rapid heart rate.,1,Tachycardia means a fast heart rate.
+S10,synonyms,The examination found erythema on the skin.,The examination found redness of the skin.,1,Erythema means skin redness.
+A01,abbreviations,The ECG showed atrial fibrillation.,The electrocardiogram showed atrial fibrillation.,1,ECG expands to electrocardiogram.
+A02,abbreviations,The patient has COPD.,The patient has chronic obstructive pulmonary disease.,1,COPD expands to chronic obstructive pulmonary disease.
+A03,abbreviations,The BP was 140/90 mmHg.,The blood pressure was 140/90 mmHg.,1,BP expands to blood pressure.
+A04,abbreviations,The patient was admitted to the ICU.,The patient was admitted to the intensive care unit.,1,ICU expands to intensive care unit.
+A05,abbreviations,The patient has CKD stage 3.,The patient has chronic kidney disease stage 3.,1,CKD expands to chronic kidney disease.
+A06,abbreviations,An MRI of the brain was normal.,A magnetic resonance imaging scan of the brain was normal.,1,MRI expands to magnetic resonance imaging.
+A07,abbreviations,The patient has type 2 DM.,The patient has type 2 diabetes mellitus.,1,DM expands to diabetes mellitus.
+A08,abbreviations,An IV antibiotic was administered.,An intravenous antibiotic was administered.,1,IV expands to intravenous.
+A09,abbreviations,The patient had a UTI.,The patient had a urinary tract infection.,1,UTI expands to urinary tract infection.
+A10,abbreviations,The CBC showed anemia.,The complete blood count showed anemia.,1,CBC expands to complete blood count.
+N01,negation,The chest X-ray shows pneumonia.,The chest X-ray shows no pneumonia.,0,Negation changes whether pneumonia is present.
+N02,negation,The patient has a penicillin allergy.,The patient has no penicillin allergy.,0,Negation changes allergy status.
+N03,negation,The patient reports chest pain.,The patient denies chest pain.,0,Reports and denies are clinically opposite.
+N04,negation,Blood cultures are positive for bacteria.,Blood cultures are negative for bacteria.,0,Positive and negative cultures differ.
+N05,negation,The test confirmed influenza infection.,The test ruled out influenza infection.,0,Confirmed versus ruled out differ.
+N06,negation,Signs of dehydration were present.,No signs of dehydration were present.,0,Presence and absence of dehydration differ.
+N07,negation,The ultrasound detected a gallstone.,The ultrasound detected no gallstones.,0,Presence and absence of gallstones differ.
+N08,negation,The patient is febrile.,The patient is afebrile.,0,Febrile and afebrile have opposing meanings.
+N09,negation,Lower limb edema is present.,Lower limb edema is absent.,0,Present and absent edema differ.
+N10,negation,The scan reveals an intracranial hemorrhage.,The scan reveals no intracranial hemorrhage.,0,Negation changes the scan finding.
+D01,numerical_difference,The patient received 5 mg of warfarin.,The patient received 10 mg of warfarin.,0,Medication dose differs.
+D02,numerical_difference,Serum sodium is 140 mmol/L.,Serum sodium is 120 mmol/L.,0,Sodium value differs clinically.
+D03,numerical_difference,Blood glucose is 90 mg/dL.,Blood glucose is 350 mg/dL.,0,Glucose concentration differs clinically.
+D04,numerical_difference,Heart rate is 72 beats per minute.,Heart rate is 140 beats per minute.,0,Heart rate differs clinically.
+D05,numerical_difference,Body temperature is 37.0 degrees Celsius.,Body temperature is 40.0 degrees Celsius.,0,Temperature differs clinically.
+D06,numerical_difference,The patient is 25 years old.,The patient is 75 years old.,0,Patient age differs.
+D07,numerical_difference,Creatinine level is 0.9 mg/dL.,Creatinine level is 4.5 mg/dL.,0,Creatinine concentration differs clinically.
+D08,numerical_difference,Oxygen saturation is 98%.,Oxygen saturation is 82%.,0,Oxygen saturation differs clinically.
+D09,numerical_difference,Blood pressure is 120/80 mmHg.,Blood pressure is 180/110 mmHg.,0,Blood pressure readings differ clinically.
+D10,numerical_difference,The tumor measures 2 cm.,The tumor measures 8 cm.,0,Tumor size differs.

@@ -1,0 +1,12 @@
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+outputs/
+.pytest_cache/
+.ipynb_checkpoints/
