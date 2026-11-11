@@ -18,7 +18,12 @@
 ![Evaluation](https://img.shields.io/badge/Evaluation-Cosine_%7C_AUC_%7C_PCA-orange)
 ![Tests](https://img.shields.io/badge/Tests-Pytest-success)
 
-**[Overview](#-project-overview) • [Architecture](#-system-architecture) • [Installation](#-installation-and-setup) • [Evaluation](#-evaluation-methodology) • [Dashboard](#-interactive-dashboard) • [Results](#-generated-outputs)**
+**[Overview]
+• [Architecture](#-system-architecture)
+• [Installation](#-installation-and-setup) 
+• [Evaluation](#-evaluation-methodology) 
+• [Dashboard](#-interactive-dashboard) 
+• [Results](#-generated-outputs)**
 
 </div>
 
@@ -141,27 +146,27 @@ flowchart TD
 
 ### Processing Workflow
 
-**Step 1 — Data Preparation**
+**Step 1  Data Preparation**
 
 Load and validate the medical sentence pairs and their expected semantic labels.
 
-**Step 2 — Embedding Generation**
+**Step 2  Embedding Generation**
 
 Generate vector representations for every unique medical sentence using both pretrained models.
 
-**Step 3 — Similarity Measurement**
+**Step 3  Similarity Measurement**
 
 Calculate cosine similarity for each sentence pair separately in each model's embedding space.
 
-**Step 4 — Performance Evaluation**
+**Step 4  Performance Evaluation**
 
 Evaluate the models using ranking AUC and category-specific comparisons.
 
-**Step 5 — Dimensionality Reduction**
+**Step 5  Dimensionality Reduction**
 
 Apply PCA to project high-dimensional sentence vectors into two dimensions.
 
-**Step 6 — Results Visualization**
+**Step 6  Results Visualization**
 
 Present the generated metrics, charts, sentence comparisons, and reports through the Streamlit application.
 
