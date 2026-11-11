@@ -18,7 +18,6 @@
 ![Evaluation](https://img.shields.io/badge/Evaluation-Cosine_%7C_AUC_%7C_PCA-orange)
 ![Tests](https://img.shields.io/badge/Tests-Pytest-success)
 
-**[Overview](#-project-overview) • [Architecture](#-system-architecture) • [Installation](#-installation-and-setup) • [Evaluation](#-evaluation-methodology) • [Dashboard](#-interactive-dashboard) • [Results](#-generated-outputs)**
 </div>
 
 
